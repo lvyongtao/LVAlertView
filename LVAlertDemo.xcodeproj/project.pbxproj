@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEA6E9F51C604263005217D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA6E9F41C604263005217D3 /* main.m */; };
+		CEA6E9F81C604263005217D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA6E9F71C604263005217D3 /* AppDelegate.m */; };
+		CEA6E9FB1C604263005217D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA6E9FA1C604263005217D3 /* ViewController.m */; };
+		CEA6E9FE1C604263005217D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA6E9FC1C604263005217D3 /* Main.storyboard */; };
+		CEA6EA001C604263005217D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA6E9FF1C604263005217D3 /* Assets.xcassets */; };
+		CEA6EA031C604263005217D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA6EA011C604263005217D3 /* LaunchScreen.storyboard */; };
+		CEA6EA0E1C604263005217D3 /* LVAlertDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA6EA0D1C604263005217D3 /* LVAlertDemoTests.m */; };
+		CEA6EA191C604263005217D3 /* LVAlertDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA6EA181C604263005217D3 /* LVAlertDemoUITests.m */; };
+		CEA7776A1CEC057C009080A3 /* LVActionsheet.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA777671CEC057C009080A3 /* LVActionsheet.m */; };
+		CEA7776B1CEC057C009080A3 /* LVAletView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA777691CEC057C009080A3 /* LVAletView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEA6EA0A1C604263005217D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA6E9E81C604262005217D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA6E9EF1C604262005217D3;
+			remoteInfo = LVAlertDemo;
+		};
+		CEA6EA151C604263005217D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA6E9E81C604262005217D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA6E9EF1C604262005217D3;
+			remoteInfo = LVAlertDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEA6E9F01C604262005217D3 /* LVAlertDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LVAlertDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA6E9F41C604263005217D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEA6E9F61C604263005217D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEA6E9F71C604263005217D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEA6E9F91C604263005217D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEA6E9FA1C604263005217D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEA6E9FD1C604263005217D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEA6E9FF1C604263005217D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA6EA021C604263005217D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEA6EA041C604263005217D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA6EA091C604263005217D3 /* LVAlertDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LVAlertDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA6EA0D1C604263005217D3 /* LVAlertDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVAlertDemoTests.m; sourceTree = "<group>"; };
+		CEA6EA0F1C604263005217D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA6EA141C604263005217D3 /* LVAlertDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LVAlertDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA6EA181C604263005217D3 /* LVAlertDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVAlertDemoUITests.m; sourceTree = "<group>"; };
+		CEA6EA1A1C604263005217D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA777661CEC057C009080A3 /* LVActionsheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVActionsheet.h; sourceTree = "<group>"; };
+		CEA777671CEC057C009080A3 /* LVActionsheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVActionsheet.m; sourceTree = "<group>"; };
+		CEA777681CEC057C009080A3 /* LVAletView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVAletView.h; sourceTree = "<group>"; };
+		CEA777691CEC057C009080A3 /* LVAletView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVAletView.m; sourceTree = "<group>"; };
+		CEA7776C1CEC05B6009080A3 /* ACMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACMacros.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA6E9ED1C604262005217D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA6EA061C604263005217D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA6EA111C604263005217D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA6E9E71C604262005217D3 = {
+			isa = PBXGroup;
+			children = (
+				CEA6E9F21C604263005217D3 /* LVAlertDemo */,
+				CEA6EA0C1C604263005217D3 /* LVAlertDemoTests */,
+				CEA6EA171C604263005217D3 /* LVAlertDemoUITests */,
+				CEA6E9F11C604262005217D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA6E9F11C604262005217D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA6E9F01C604262005217D3 /* LVAlertDemo.app */,
+				CEA6EA091C604263005217D3 /* LVAlertDemoTests.xctest */,
+				CEA6EA141C604263005217D3 /* LVAlertDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA6E9F21C604263005217D3 /* LVAlertDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CEA6EA261C6042A4005217D3 /* LVAlertView */,
+				CEA6E9F61C604263005217D3 /* AppDelegate.h */,
+				CEA6E9F71C604263005217D3 /* AppDelegate.m */,
+				CEA7776C1CEC05B6009080A3 /* ACMacros.h */,
+				CEA6E9F91C604263005217D3 /* ViewController.h */,
+				CEA6E9FA1C604263005217D3 /* ViewController.m */,
+				CEA6E9FC1C604263005217D3 /* Main.storyboard */,
+				CEA6E9FF1C604263005217D3 /* Assets.xcassets */,
+				CEA6EA011C604263005217D3 /* LaunchScreen.storyboard */,
+				CEA6EA041C604263005217D3 /* Info.plist */,
+				CEA6E9F31C604263005217D3 /* Supporting Files */,
+			);
+			path = LVAlertDemo;
+			sourceTree = "<group>";
+		};
+		CEA6E9F31C604263005217D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA6E9F41C604263005217D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEA6EA0C1C604263005217D3 /* LVAlertDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA6EA0D1C604263005217D3 /* LVAlertDemoTests.m */,
+				CEA6EA0F1C604263005217D3 /* Info.plist */,
+			);
+			path = LVAlertDemoTests;
+			sourceTree = "<group>";
+		};
+		CEA6EA171C604263005217D3 /* LVAlertDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA6EA181C604263005217D3 /* LVAlertDemoUITests.m */,
+				CEA6EA1A1C604263005217D3 /* Info.plist */,
+			);
+			path = LVAlertDemoUITests;
+			sourceTree = "<group>";
+		};
+		CEA6EA261C6042A4005217D3 /* LVAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				CEA777661CEC057C009080A3 /* LVActionsheet.h */,
+				CEA777671CEC057C009080A3 /* LVActionsheet.m */,
+				CEA777681CEC057C009080A3 /* LVAletView.h */,
+				CEA777691CEC057C009080A3 /* LVAletView.m */,
+			);
+			path = LVAlertView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA6E9EF1C604262005217D3 /* LVAlertDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA6EA1D1C604263005217D3 /* Build configuration list for PBXNativeTarget "LVAlertDemo" */;
+			buildPhases = (
+				CEA6E9EC1C604262005217D3 /* Sources */,
+				CEA6E9ED1C604262005217D3 /* Frameworks */,
+				CEA6E9EE1C604262005217D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LVAlertDemo;
+			productName = LVAlertDemo;
+			productReference = CEA6E9F01C604262005217D3 /* LVAlertDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEA6EA081C604263005217D3 /* LVAlertDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA6EA201C604263005217D3 /* Build configuration list for PBXNativeTarget "LVAlertDemoTests" */;
+			buildPhases = (
+				CEA6EA051C604263005217D3 /* Sources */,
+				CEA6EA061C604263005217D3 /* Frameworks */,
+				CEA6EA071C604263005217D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA6EA0B1C604263005217D3 /* PBXTargetDependency */,
+			);
+			name = LVAlertDemoTests;
+			productName = LVAlertDemoTests;
+			productReference = CEA6EA091C604263005217D3 /* LVAlertDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEA6EA131C604263005217D3 /* LVAlertDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA6EA231C604263005217D3 /* Build configuration list for PBXNativeTarget "LVAlertDemoUITests" */;
+			buildPhases = (
+				CEA6EA101C604263005217D3 /* Sources */,
+				CEA6EA111C604263005217D3 /* Frameworks */,
+				CEA6EA121C604263005217D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA6EA161C604263005217D3 /* PBXTargetDependency */,
+			);
+			name = LVAlertDemoUITests;
+			productName = LVAlertDemoUITests;
+			productReference = CEA6EA141C604263005217D3 /* LVAlertDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA6E9E81C604262005217D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lvyongtao;
+				TargetAttributes = {
+					CEA6E9EF1C604262005217D3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9S54A74MQU;
+					};
+					CEA6EA081C604263005217D3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CEA6E9EF1C604262005217D3;
+					};
+					CEA6EA131C604263005217D3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CEA6E9EF1C604262005217D3;
+					};
+				};
+			};
+			buildConfigurationList = CEA6E9EB1C604262005217D3 /* Build configuration list for PBXProject "LVAlertDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA6E9E71C604262005217D3;
+			productRefGroup = CEA6E9F11C604262005217D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA6E9EF1C604262005217D3 /* LVAlertDemo */,
+				CEA6EA081C604263005217D3 /* LVAlertDemoTests */,
+				CEA6EA131C604263005217D3 /* LVAlertDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA6E9EE1C604262005217D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA6EA031C604263005217D3 /* LaunchScreen.storyboard in Resources */,
+				CEA6EA001C604263005217D3 /* Assets.xcassets in Resources */,
+				CEA6E9FE1C604263005217D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA6EA071C604263005217D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA6EA121C604263005217D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA6E9EC1C604262005217D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA7776B1CEC057C009080A3 /* LVAletView.m in Sources */,
+				CEA6E9FB1C604263005217D3 /* ViewController.m in Sources */,
+				CEA6E9F81C604263005217D3 /* AppDelegate.m in Sources */,
+				CEA6E9F51C604263005217D3 /* main.m in Sources */,
+				CEA7776A1CEC057C009080A3 /* LVActionsheet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA6EA051C604263005217D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA6EA0E1C604263005217D3 /* LVAlertDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA6EA101C604263005217D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA6EA191C604263005217D3 /* LVAlertDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEA6EA0B1C604263005217D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA6E9EF1C604262005217D3 /* LVAlertDemo */;
+			targetProxy = CEA6EA0A1C604263005217D3 /* PBXContainerItemProxy */;
+		};
+		CEA6EA161C604263005217D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA6E9EF1C604262005217D3 /* LVAlertDemo */;
+			targetProxy = CEA6EA151C604263005217D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEA6E9FC1C604263005217D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA6E9FD1C604263005217D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEA6EA011C604263005217D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA6EA021C604263005217D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA6EA1B1C604263005217D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: wenru wei (X4UXWJ6Y78)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: wenru wei (X4UXWJ6Y78)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "e75e1169-39c2-4af0-9339-b26d8f9e3cd9";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA6EA1C1C604263005217D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: wenru wei (X4UXWJ6Y78)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: wenru wei (X4UXWJ6Y78)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "e75e1169-39c2-4af0-9339-b26d8f9e3cd9";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA6EA1E1C604263005217D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LVAlertDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taoaim.com.PageChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		CEA6EA1F1C604263005217D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LVAlertDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taoaim.com.PageChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		CEA6EA211C604263005217D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LVAlertDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taoaim.com.LVAlertDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LVAlertDemo.app/LVAlertDemo";
+			};
+			name = Debug;
+		};
+		CEA6EA221C604263005217D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LVAlertDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taoaim.com.LVAlertDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LVAlertDemo.app/LVAlertDemo";
+			};
+			name = Release;
+		};
+		CEA6EA241C604263005217D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LVAlertDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taoaim.com.LVAlertDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LVAlertDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CEA6EA251C604263005217D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LVAlertDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taoaim.com.LVAlertDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LVAlertDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA6E9EB1C604262005217D3 /* Build configuration list for PBXProject "LVAlertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA6EA1B1C604263005217D3 /* Debug */,
+				CEA6EA1C1C604263005217D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA6EA1D1C604263005217D3 /* Build configuration list for PBXNativeTarget "LVAlertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA6EA1E1C604263005217D3 /* Debug */,
+				CEA6EA1F1C604263005217D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA6EA201C604263005217D3 /* Build configuration list for PBXNativeTarget "LVAlertDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA6EA211C604263005217D3 /* Debug */,
+				CEA6EA221C604263005217D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA6EA231C604263005217D3 /* Build configuration list for PBXNativeTarget "LVAlertDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA6EA241C604263005217D3 /* Debug */,
+				CEA6EA251C604263005217D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA6E9E81C604262005217D3 /* Project object */;
+}
