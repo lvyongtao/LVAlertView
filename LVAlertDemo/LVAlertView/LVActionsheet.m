@@ -61,6 +61,8 @@
 //    self.layer.cornerRadius = 8.0;
 //    self.clipsToBounds = YES;
 //    self.backgroundColor = [UIColor redColor];
+    self.backgroundColor = RGBCOLOR(73, 78, 88);
+
     CGRect cancleFrame = CGRectMake(0, miniSpaceY, WIDTH,buttonH);
     CGRect titleFrame = CGRectMake(0, 0, WIDTH, 0);
     if (self.headTitle.length!= 0 && self.headTitle!= nil) {

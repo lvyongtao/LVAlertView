@@ -24,32 +24,38 @@
 
 @implementation ViewController
 - (IBAction)alertViewBtn:(UIButton *)sender {
-    if (!sender.selected) {
-        
-       
-        
-        self.alertView.backgroundColor = [UIColor grayColor];
-         self.alertView1.backgroundColor = [UIColor grayColor];
-        sender.selected = YES;
-    }else{
-        sender.selected = NO;
-//        [self.alertView removeFromSuperview];
-        
-    }
+    
+    
+    
+       self.alertView.backgroundColor = [UIColor grayColor];
+    
+    
+//    if (!sender.selected) {
+//        
+//       
+//        
+//        self.alertView.backgroundColor = [UIColor grayColor];
+////         self.alertView1.backgroundColor = [UIColor grayColor];
+////        sender.selected = YES;
+//    }else{
+////        sender.selected = NO;
+////        [self.alertView removeFromSuperview];
+//        
+//    }
    
     
   }
 - (IBAction)actionSheetBtn:(UIButton *)sender {
-    
-    if (!sender.selected) {
-       
         self.actionSheet.backgroundColor = [UIColor whiteColor];
-        sender.selected = YES;
-    }else{
-        sender.selected = NO;
-//        [self.actionSheet removeFromSuperview];
-        
-    }
+//    if (!sender.selected) {
+//       
+//        self.actionSheet.backgroundColor = [UIColor whiteColor];
+//        sender.selected = YES;
+//    }else{
+//        sender.selected = NO;
+////        [self.actionSheet removeFromSuperview];
+//        
+//    }
     
 
 }

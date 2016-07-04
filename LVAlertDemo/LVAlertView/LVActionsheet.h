@@ -14,6 +14,8 @@
 @end
 @interface LVActionsheet : UIView
 @property (weak,nonatomic) id<LVActionSheetDelegate> delegate;
+
+
 /**
  *  API
  *
